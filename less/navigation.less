@@ -1,12 +1,18 @@
 // Navigation Styles here
 
 .super-container{
+    @media @mobile {
+        
+    }
     header{
         border-bottom: 2px dashed  @navigation-border;
         .nav-parent {
             max-width: 800px;
             margin: 0 auto;
             .flex-mixin(space-between, center);
+            @media @mobile {
+                justify-content: center;
+            }
         }
         nav {
             max-width: 800px;
@@ -14,6 +20,9 @@
             .flex-mixin(space-around, center);
             width: 40%;
             margin: 4% 0;
+            @media @mobile {
+                width: 100%;
+            }
             a{
                 text-decoration: none;
                 font-size: 1.7rem;
