@@ -6,8 +6,8 @@
     align-items: @align; 
 }
 
-.button {
-    background-color: @button-bg;
+.button(@bgcolor:@button-bg) {
+    background-color: @bgcolor;
     .flex-mixin(center, center);
     border-radius: 15px;
     font-size: 2rem;
