@@ -333,6 +333,11 @@ img {
 }
 @media (max-width: 500px) {
   .home .content-pick .destination .btn {
+    background-color: #17a2b8;
+  }
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination .btn {
     width: 100%;
   }
 }
