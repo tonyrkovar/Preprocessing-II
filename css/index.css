@@ -1,3 +1,14 @@
+.button {
+  background-color: #008080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-size: 2rem;
+  padding: 5%;
+  width: 82%;
+  color: #FFFFFF;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -255,4 +266,15 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  background-color: #008080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-size: 2rem;
+  padding: 5%;
+  width: 82%;
+  color: #FFFFFF;
 }
